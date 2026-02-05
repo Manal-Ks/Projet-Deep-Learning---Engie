@@ -1,14 +1,23 @@
-import pandas as pd
-from sklearn.metrics import mean_absolute_error
+from __future__ import annotations
+from pathlib import Path
+import json
 
-def merge_xy(X, Y):
-    return X.merge(Y, on="ID", how="inner")
 
-def time_split(df, date_col="Date_time", train_frac=0.8):
-    df = df.sort_values(date_col).reset_index(drop=True)
-    cut = int(len(df) * train_frac)
-    return df.iloc[:cut], df.iloc[cut:]
+def ensure_dir(path):
+    """
+    Create directory if it doesn't exist and return Path object.
+    """
+    p = Path(path)
+    p.mkdir(parents=True, exist_ok=True)
+    return p
 
-def mae(y_true, y_pred):
-    return mean_absolute_error(y_true, y_pred)
 
+def save_json(obj, path):
+    """
+    Save dict as JSON file.
+    """
+    path = Path(path)
+    ensure_dir(path.parent)
+
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(obj, f, indent=2)

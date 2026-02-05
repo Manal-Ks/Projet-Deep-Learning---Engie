@@ -10,7 +10,7 @@
     "mae_test": 25.60927369887037
   },
   {
-    "model": "RandomForest",
+    "model": "ExtraTrees",
     "mae_val": 27.088180421277187,
     "mae_test": 31.697817925054775
   },

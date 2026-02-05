@@ -1,0 +1,17 @@
+{
+  "model": "hgb",
+  "turbine": "none",
+  "n_train": 432170,
+  "n_val": 92608,
+  "n_test": 92608,
+  "mae_val": 12.9498386329987,
+  "rmse_val": 38.9641732319267,
+  "r2_val": 0.9892281730781974,
+  "mape_val": 277.24215696120854,
+  "mae_test": 13.412376766491885,
+  "rmse_test": 30.452958581100134,
+  "r2_test": 0.9964040396239744,
+  "mape_test": 187.22764460455002,
+  "model_path": "C:\\Users\\intel\\Documents\\GitHub\\Projet-Deep-Learning---Engie\\models\\hgb_none.joblib",
+  "parquet_path": "C:\\Users\\intel\\Documents\\GitHub\\Projet-Deep-Learning---Engie\\data\\engie_full.parquet"
+}

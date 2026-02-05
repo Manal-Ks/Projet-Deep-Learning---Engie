@@ -1,0 +1,17 @@
+{
+  "model": "hgb",
+  "turbine": "WT3",
+  "n_train": 107977,
+  "n_val": 23138,
+  "n_test": 23138,
+  "mae_val": 16.00445999930796,
+  "rmse_val": 45.11800743611099,
+  "r2_val": 0.9856660581124903,
+  "mape_val": 138.85614786928016,
+  "mae_test": 22.556198530476244,
+  "rmse_test": 46.76087554101807,
+  "r2_test": 0.9922939321980049,
+  "mape_test": 138.74107674819018,
+  "model_path": "C:\\Users\\intel\\Documents\\GitHub\\Projet-Deep-Learning---Engie\\models\\hgb_WT3.joblib",
+  "parquet_path": "C:\\Users\\intel\\Documents\\GitHub\\Projet-Deep-Learning---Engie\\data\\engie_full.parquet"
+}

@@ -1,0 +1,17 @@
+{
+  "model": "ridge",
+  "turbine": "WT3",
+  "n_train": 107977,
+  "n_val": 23138,
+  "n_test": 23138,
+  "mae_val": 105.21223650920521,
+  "rmse_val": 136.6193980358109,
+  "r2_val": 0.8685711973634604,
+  "mape_val": 9130.001369650987,
+  "mae_test": 104.15188167106882,
+  "rmse_test": 136.0857923259894,
+  "r2_test": 0.9347330782877642,
+  "mape_test": 5989.249140425612,
+  "model_path": "C:\\Users\\intel\\Documents\\GitHub\\Projet-Deep-Learning---Engie\\models\\ridge_WT3.joblib",
+  "parquet_path": "C:\\Users\\intel\\Documents\\GitHub\\Projet-Deep-Learning---Engie\\data\\engie_full.parquet"
+}

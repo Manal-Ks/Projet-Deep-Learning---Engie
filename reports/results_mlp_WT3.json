@@ -1,0 +1,17 @@
+{
+  "model": "mlp",
+  "turbine": "WT3",
+  "n_train": 107977,
+  "n_val": 23138,
+  "n_test": 23138,
+  "mae_val": 19.71522262704102,
+  "rmse_val": 45.65504514686501,
+  "r2_val": 0.9853227946808781,
+  "mape_val": 134.3002837097582,
+  "mae_test": 25.60927369887037,
+  "rmse_test": 54.98539321343292,
+  "r2_test": 0.9893447847443317,
+  "mape_test": 84.53980323102151,
+  "model_path": "C:\\Users\\intel\\Documents\\GitHub\\Projet-Deep-Learning---Engie\\models\\mlp_WT3.joblib",
+  "parquet_path": "C:\\Users\\intel\\Documents\\GitHub\\Projet-Deep-Learning---Engie\\data\\engie_full.parquet"
+}

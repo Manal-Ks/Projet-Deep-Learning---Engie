@@ -1,0 +1,17 @@
+{
+  "model": "extratrees",
+  "turbine": "WT3",
+  "n_train": 107977,
+  "n_val": 23138,
+  "n_test": 23138,
+  "mae_val": 27.088180421277187,
+  "rmse_val": 61.89677373497695,
+  "r2_val": 0.9730224912581322,
+  "mape_val": 125.38096354926829,
+  "mae_test": 31.697817925054775,
+  "rmse_test": 65.73648286850472,
+  "r2_test": 0.9847706809324497,
+  "mape_test": 119.40618099928419,
+  "model_path": "C:\\Users\\intel\\Documents\\GitHub\\Projet-Deep-Learning---Engie\\models\\extratrees_WT3.joblib",
+  "parquet_path": "C:\\Users\\intel\\Documents\\GitHub\\Projet-Deep-Learning---Engie\\data\\engie_full.parquet"
+}
